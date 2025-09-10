@@ -44,7 +44,8 @@ export function SignUpForm({
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/protected`,
+          // After email confirmation, redirect back to the app homepage
+          emailRedirectTo: `${window.location.origin}/`,
         },
       });
       if (error) throw error;

@@ -1,0 +1,941 @@
+Vercel CLI 47.0.7
+WARN! `--port` is deprecated, please use `--listen` instead
+Retrieving project…
+> Running Dev Command “next dev --port $PORT”
+node:internal/modules/cjs/loader:1413
+  throw err;
+  ^
+
+Error: Cannot find module '../server/require-hook'
+Require stack:
+- /Users/Zhengfeng/playground/0910-vercel-with-supabase-golang/node_modules/.bin/next
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1410:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.require (node:internal/modules/cjs/loader:1493:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/Users/Zhengfeng/playground/0910-vercel-with-supabase-golang/node_modules/.bin/next:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/Zhengfeng/playground/0910-vercel-with-supabase-golang/node_modules/.bin/next'
+  ]
+}
+
+Node.js v24.7.0
+Error: Detecting port 60999 timed out after 300000ms
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)
+Error: An unexpected error occurred!
+Error: Detecting port 60999 timed out after 300000ms
+    at checkForPort (/opt/homebrew/lib/node_modules/vercel/dist/index.js:167956:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async DevServer.runDevCommand (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169700:32)
+    at async DevServer._getVercelConfig (/opt/homebrew/lib/node_modules/vercel/dist/index.js:169125:9)

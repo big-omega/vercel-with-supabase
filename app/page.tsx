@@ -36,6 +36,9 @@ export default async function Home() {
                   <Link className="underline underline-offset-4" href="/api/ping" target="_blank" rel="noopener noreferrer">
                     Ping (Node runtime)
                   </Link>
+                  <Link className="underline underline-offset-4" href="/api/go-ping" target="_blank" rel="noopener noreferrer">
+                    Ping (Go runtime)
+                  </Link>
                   <Link className="underline underline-offset-4" href="/api/edge-time" target="_blank" rel="noopener noreferrer">
                     Edge time (Edge runtime)
                   </Link>
