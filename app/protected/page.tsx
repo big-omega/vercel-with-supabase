@@ -22,6 +22,7 @@ export default async function ProtectedPage() {
         <span className="text-foreground/80">Quick links:</span>
         <Link className="underline underline-offset-4" href="/notes" target="_blank" rel="noopener noreferrer">Notes</Link>
         <Link className="underline underline-offset-4" href="/api/ping" target="_blank" rel="noopener noreferrer">Ping</Link>
+        <Link className="underline underline-offset-4" href="/api/go-ping" target="_blank" rel="noopener noreferrer">Go Ping</Link>
         <Link className="underline underline-offset-4" href="/api/edge-time" target="_blank" rel="noopener noreferrer">Edge</Link>
       </div>
     </div>

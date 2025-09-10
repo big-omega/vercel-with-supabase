@@ -6,7 +6,7 @@ export default async function Page() {
   const supabase = await createClient();
   const { data: userData } = await supabase.auth.getUser();
   if (userData?.user) {
-    redirect("/protected");
+    redirect("/");
   }
   return (
     <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">

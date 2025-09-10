@@ -40,7 +40,7 @@ export function LoginForm({
       if (error) throw error;
       // Ensure server components re-fetch with the new auth cookie, then navigate
       router.refresh();
-      router.replace("/protected");
+      router.replace("/");
     } catch (error: unknown) {
       setError(error instanceof Error ? error.message : "An error occurred");
     } finally {
